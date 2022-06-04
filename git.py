@@ -5,8 +5,3 @@ while num != 0:
     sum_nums += last
     num = num // 10
 print(sum_nums)
-
-ls = [int(i) for i in input().split()]
-a = sum(ls)
-print(a)
-
